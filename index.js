@@ -14,7 +14,9 @@ Bst1.add(19);
 Bst1.add(67);
 console.log(Bst1);
 
-// Bst1.findMin();
-// Bst1.findMax();
+Bst1.remove(9);
+Bst1.remove(76);
+Bst1.findMin();
+Bst1.findMax();
 
-console.log(Bst1.isPresent(19));
+// console.log(Bst1.isPresent(19));
