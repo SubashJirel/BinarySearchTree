@@ -13,3 +13,6 @@ Bst1.add(14);
 Bst1.add(19);
 Bst1.add(67);
 console.log(Bst1);
+
+Bst1.findMin();
+Bst1.findMax();

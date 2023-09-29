@@ -33,4 +33,18 @@ export default class BST {
       return null; // meaning if the data to be inserted is already there then just return null
     }
   }
+  findMin() {
+    let current = this.root;
+    while (current.left !== null) {
+      current = current.left;
+    }
+    console.log(current.data);
+  }
+  findMax() {
+    let current = this.root;
+    while (current.right !== null) {
+      current = current.right;
+    }
+    console.log(current.data);
+  }
 }
