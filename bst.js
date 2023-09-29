@@ -47,4 +47,17 @@ export default class BST {
     }
     console.log(current.data);
   }
+  isPresent(data) {
+    let current = this.root;
+
+    while (current) {
+      if (current.data === data) return true;
+      else if (data < current.data) {
+        current = current.left;
+      } else {
+        current = current.right;
+      }
+    }
+    return false;
+  }
 }
